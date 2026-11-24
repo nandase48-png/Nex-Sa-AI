@@ -450,7 +450,7 @@ with st.sidebar:
     st.markdown(f"### {lang['engine_settings']}")
     selected_model = st.selectbox(
         lang["select_model"],
-        options=["gemini-2.5-flash", "gemini-2.5-pro"],
+        options=["gemini-3.8-flash", "gemini-3.8-pro"],
         index=0,
         key="model_selector"
     )
